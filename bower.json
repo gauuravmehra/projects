@@ -1,24 +1,20 @@
 {
-  "name": "DemoApp",
-  "version": "1.0.0",
+  "name": "demo script",
+  "version": "0.0.0",
+  "homepage": "https://github.com/gauuravmehra/projects",
   "authors": [
-    "harsh.lamba <harsh.lamba@3pillarglobal.com>"
+    "gauuravmehra <gauurav.mehra@gmail.com>"
   ],
-  "description": "Responsive App",
   "license": "MIT",
   "ignore": [
     "**/.*",
     "node_modules",
     "bower_components",
-    "bower-library",
+    "js",
     "test",
     "tests"
   ],
   "dependencies": {
-    "jquery": "~2.0.3"
-  },
-  "devDependencies": {
-    "bootstrap": "~3.0.3"
-  },
-  "homepage": "https://github.com/gauuravmehra/projects"
+    "jquery": "1.10.2"
+  }
 }

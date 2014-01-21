@@ -1,26 +1,33 @@
 {
-  "name": "e",
-  "version": "0.0.0",
-  "description": "projects\r ========",
+  "name": "DemoScript",
+  "version": "0.0.1",
+  "description": "it is a demo script.",
   "main": "Gruntfile.js",
   "dependencies": {
     "grunt": "~0.4.2"
   },
   "devDependencies": {
-    "grunt-contrib-concat": "~0.3.0",
     "grunt-contrib-less": "~0.9.0",
-    "grunt-contrib-watch": "~0.5.3",
-    "grunt": "~0.4.2"
+    "grunt-contrib-watch": "~0.5.3"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "grunt"
   },
-  "author": "",
-  "license": "BSD-2-Clause",
   "repository": {
     "type": "git",
     "url": "git://github.com/gauuravmehra/projects.git"
   },
+  "keywords": [
+    "Demo",
+    "script",
+    "for",
+    "npm",
+    "bower",
+    "less",
+    "grunt"
+  ],
+  "author": "Gaurav Mehra",
+  "license": "BSD-2-Clause",
   "bugs": {
     "url": "https://github.com/gauuravmehra/projects/issues"
   }

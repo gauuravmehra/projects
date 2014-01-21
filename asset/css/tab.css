@@ -1,0 +1,362 @@
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+@media (min-width: 768px) {
+
+  /* Remove the edge padding needed for mobile */
+  .marketing {
+ padding-left: 0;
+ padding-right: 0;
+}
+
+  /* Navbar positioning foo */
+  .navbar-wrapper {
+ margin-top: 20px;
+}
+  /* The navbar becomes detached from the top, so we round the corners */
+  .navbar-wrapper .navbar {
+ border-radius: 4px;
+}
+
+  /* Bump up size of carousel content */
+  .carousel-caption h1 {
+ display:none;
+}
+ .carousel-caption p {
+ margin-bottom: 20px;
+ font-size: 21px;
+ line-height: 1.4;
+ display:none;
+}
+ .featurette-heading {
+ font-size: 50px;
+}
+}
+ @media (min-width: 992px) {
+ .featurette-heading {
+ margin-top: 120px;
+}
+}
+ @media (min-width: 768px) {
+ .lead {
+ font-size: 21px;
+}
+}
+ @media (min-width: 768px) {
+ .dl-horizontal dt {
+ float: left;
+ width: 160px;
+ overflow: hidden;
+ clear: left;
+ text-align: right;
+ text-overflow: ellipsis;
+ white-space: nowrap;
+}
+ .dl-horizontal dd {
+ margin-left: 180px;
+}
+ .dl-horizontal dd:before, .dl-horizontal dd:after {
+ display: table;
+ content: " ";
+}
+ .dl-horizontal dd:after {
+ clear: both;
+}
+ .dl-horizontal dd:before, .dl-horizontal dd:after {
+ display: table;
+ content: " ";
+}
+ .dl-horizontal dd:after {
+ clear: both;
+}
+}
+ @media (min-width: 768px) {
+ .container {
+ max-width: 750px;
+}
+ .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11 {
+ float: left;
+}
+ .col-sm-1 {
+ width: 8.333333333333332%;
+}
+ .col-sm-2 {
+ width: 16.666666666666664%;
+}
+ .col-sm-3 {
+ width: 25%;
+}
+ .col-sm-4 {
+ width: 33.33333333333333%;
+}
+ .col-sm-5 {
+ width: 41.66666666666667%;
+}
+ .col-sm-6 {
+ width: 50%;
+}
+ .col-sm-7 {
+ width: 58.333333333333336%;
+}
+ .col-sm-8 {
+ width: 66.66666666666666%;
+}
+ .col-sm-9 {
+ width: 75%;
+}
+ .col-sm-10 {
+ width: 83.33333333333334%;
+}
+ .col-sm-11 {
+ width: 91.66666666666666%;
+}
+ .col-sm-12 {
+ width: 100%;
+}
+ .col-sm-push-1 {
+ left: 8.333333333333332%;
+}
+ .col-sm-push-2 {
+ left: 16.666666666666664%;
+}
+ .col-sm-push-3 {
+ left: 25%;
+}
+ .col-sm-push-4 {
+ left: 33.33333333333333%;
+}
+ .col-sm-push-5 {
+ left: 41.66666666666667%;
+}
+ .col-sm-push-6 {
+ left: 50%;
+}
+ .col-sm-push-7 {
+ left: 58.333333333333336%;
+}
+ .col-sm-push-8 {
+ left: 66.66666666666666%;
+}
+ .col-sm-push-9 {
+ left: 75%;
+}
+ .col-sm-push-10 {
+ left: 83.33333333333334%;
+}
+ .col-sm-push-11 {
+ left: 91.66666666666666%;
+}
+ .col-sm-pull-1 {
+ right: 8.333333333333332%;
+}
+ .col-sm-pull-2 {
+ right: 16.666666666666664%;
+}
+ .col-sm-pull-3 {
+ right: 25%;
+}
+ .col-sm-pull-4 {
+ right: 33.33333333333333%;
+}
+ .col-sm-pull-5 {
+ right: 41.66666666666667%;
+}
+ .col-sm-pull-6 {
+ right: 50%;
+}
+ .col-sm-pull-7 {
+ right: 58.333333333333336%;
+}
+ .col-sm-pull-8 {
+ right: 66.66666666666666%;
+}
+ .col-sm-pull-9 {
+ right: 75%;
+}
+ .col-sm-pull-10 {
+ right: 83.33333333333334%;
+}
+ .col-sm-pull-11 {
+ right: 91.66666666666666%;
+}
+ .col-sm-offset-1 {
+ margin-left: 8.333333333333332%;
+}
+ .col-sm-offset-2 {
+ margin-left: 16.666666666666664%;
+}
+ .col-sm-offset-3 {
+ margin-left: 25%;
+}
+ .col-sm-offset-4 {
+ margin-left: 33.33333333333333%;
+}
+ .col-sm-offset-5 {
+ margin-left: 41.66666666666667%;
+}
+ .col-sm-offset-6 {
+ margin-left: 50%;
+}
+ .col-sm-offset-7 {
+ margin-left: 58.333333333333336%;
+}
+ .col-sm-offset-8 {
+ margin-left: 66.66666666666666%;
+}
+ .col-sm-offset-9 {
+ margin-left: 75%;
+}
+ .col-sm-offset-10 {
+ margin-left: 83.33333333333334%;
+}
+ .col-sm-offset-11 {
+ margin-left: 91.66666666666666%;
+}
+}
+ @media (max-width: 767px) {
+ .visible-sm.visible-xs {
+ display: block !important;
+}
+ tr.visible-sm.visible-xs {
+ display: table-row !important;
+}
+ th.visible-sm.visible-xs, td.visible-sm.visible-xs {
+ display: table-cell !important;
+}
+}
+ @media (max-width: 767px) {
+ .visible-lg.visible-xs {
+ display: block !important;
+}
+ tr.visible-lg.visible-xs {
+ display: table-row !important;
+}
+ th.visible-lg.visible-xs, td.visible-lg.visible-xs {
+ display: table-cell !important;
+}
+}
+ @media (max-width: 1200px) {
+.carousel-control {
+ display:none;
+}
+.marketing .col-lg-4 h2 {
+ margin-top:4px;
+}
+.marketing .col-lg-4 {
+ padding-left:4px;
+ padding-right:4px;
+}
+}
+
+/** MARKETING COMPONENTS  **/
+@media screen and (min-width: 700px) and (max-width: 1200px) {
+.row {
+ /*width:100%;*/
+ margin-right: 0px;
+ margin-left: 0px;
+ padding:0 10px 15px 10px;
+}
+.marketing .col-lg-4 {
+ padding-left: 4px;
+ padding-right: 4px;
+ width: 33.33%;
+ float: left;
+}
+ .container {
+ max-width: 960px;
+}
+.marketing {
+ padding-left: 0px;
+ padding-right: 0px;
+}
+.navbar-default .navbar-nav > li > a {
+ color:#fff
+}
+}
+.marketing .col-lg-4.last {
+	margin-bottom:0;
+	pading-bottom:0;
+	border-bottom:none;
+}
+.row {
+	margin-right:0px;
+}
+ @media screen and (min-width: 700px) and (max-width: 1200px) {
+ .marketing .col-lg-4 {
+ padding-left:4px;
+ padding-right:4px;
+ margin-bottom:0;
+ padding-bottom:0;
+ border-bottom:none;
+}
+.marketing .col-lg-4.last {
+ margin-bottom:0;
+ pading-bottom:0;
+ border-bottom:none;
+}
+}
+
+
+/*** TRANSFORMATION OF SUB-FUNCITONS  ***/
+@media screen and (min-width: 480px) and (max-width: 699px) {
+.row {
+ padding-bottom:0px;
+}
+.marketing .col-lg-4 h2.web {
+ display:none;
+}
+h2.web-cb {
+ display:none;
+}
+h2.tab_phn {
+ display:block;
+}
+h2.web-rc {
+ display:none;
+}
+h2.tab-cb {
+ display:none;
+}
+h2.web_link {
+ display:none;
+}
+.marketing .col-lg-4 {
+ padding-left:4px;
+ padding-right:4px;
+}
+.marketing .col-lg-4 p {
+ display:none;
+}
+.marketing h2.tab_phn a {
+ color: #FFF;
+ font-size: 17px;
+ font-weight: bold;
+ background:#358CCE;
+ display:block;
+ margin: 0 -30px 0 -14px;
+ padding: 0 0 0 13px;
+}
+ .marketing h2.tab_phn a:hover {
+ background:#257ec1;
+}
+.marketing h2.tab_phn a:hover {
+ text-decoration:none;
+}
+}
+@media (max-width:800px){
+.carousel-inner
+{
+	padding:0px 0 30px !important;
+}
+.carousel-inner > .next, .carousel-inner > .prev {
+	position: absolute;
+	top: 0 !important;
+	width: 100%;
+}
+.navbar-default
+{
+	border-bottom:3px solid #fff;
+}
+}
+
+
+

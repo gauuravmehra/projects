@@ -1,0 +1,23 @@
+{
+  "name": "DemoApp",
+  "version": "1.0.0",
+  "authors": [
+    "harsh.lamba <harsh.lamba@3pillarglobal.com>"
+  ],
+  "description": "Responsive App",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "bower-library",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.0.3"
+  },
+  "devDependencies": {
+    "bootstrap": "~3.0.3"
+  }
+}
